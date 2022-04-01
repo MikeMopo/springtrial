@@ -1,14 +1,14 @@
 package zw.co.tino.springtrial.model;
 
-public class Users {
+public class User {
     private int id;
     private String username;
     private String email;
 
-    public Users() {
+    public User() {
     }
 
-    public Users(int id, String username, String email) {
+    public User(int id, String username, String email) {
         this.id = id;
         this.username = username;
         this.email = email;
